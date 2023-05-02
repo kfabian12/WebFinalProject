@@ -1,0 +1,106 @@
+* {
+    font-family: monospace;
+}
+
+#containers {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "got"
+        "yellowStone"
+        "grownUps";
+    margin: 20px 50px;
+}
+  
+#got {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "img1 text1 text1";
+    grid-area: got;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+}
+  
+#img1 { 
+    grid-area: img1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+  
+#text1 { grid-area: text1; 
+    padding-right: 15px;
+    color: darkslategrey
+}
+  
+#yellowstone {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "img2 text2 text2";
+    grid-area: yellowStone;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+}
+  
+#img2 { grid-area: img2; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+  
+#text2 { grid-area: text2; 
+    padding-right: 15px;
+    color: darkslategrey;
+    padding-top: 10px;
+}
+  
+#grownUps {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "img3 text3 text3";
+    grid-area: grownUps;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+}
+  
+#img3 { grid-area: img3; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+  
+#text3 { grid-area: text3; 
+    padding-right: 15px;
+    color: darkslategrey;
+    padding-top: 10px;
+}
+  
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: darkslategrey;
+}
+
+.navbar {
+    font-size: 30px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
