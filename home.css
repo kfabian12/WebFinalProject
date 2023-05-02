@@ -1,0 +1,135 @@
+* {
+    font-family: monospace;
+}
+.navbar {
+    font-size: 30px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.containers {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "friends friends friends"
+      "hike hike hike"
+      "kd kd kd"
+      "cat cat cat";
+}
+  
+.friends {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img1 para1 para1";
+    grid-area: friends;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+    margin: 20px 75px;
+}
+  
+.img1 { grid-area: img1; 
+    margin: 15px 15px;
+}
+  
+.para1 { grid-area: para1; 
+    margin: 20px 35px;
+    color: darkslategray;
+    font-size: 22px;
+    line-height: 45px;
+}
+  
+.hike {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "para2 para2 img2";
+    grid-area: hike;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+    margin: 20px 75px;
+}
+  
+.para2 { grid-area: para2; 
+    margin: 20px 35px;
+    color: darkslategray;
+    font-size: 22px;
+    line-height: 45px;
+}
+  
+.img2 { grid-area: img2; 
+    margin: 15px 15px;
+}
+
+.kd {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img3 para3 para3";
+    grid-area: kd;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+    margin: 20px 75px;
+}
+  
+.img3 { grid-area: img3; 
+    margin: 15px 15px;
+}
+  
+.para3 { grid-area: para3; 
+    margin: 20px 35px;
+    color: darkslategray;
+    font-size: 22px;
+    line-height: 45px;
+}
+  
+.cat {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "para4 para4 img4";
+    grid-area: cat;
+    justify-items: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+    margin: 20px 75px;
+}
+  
+.para4 { grid-area: para4; 
+    margin: 20px 35px;
+    color: darkslategray;
+    font-size: 22px;
+    line-height: 45px;
+}
+  
+.img4 { grid-area: img4; 
+    margin: 15px 15px;
+}
+  
