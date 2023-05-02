@@ -1,0 +1,11 @@
+* {
+    font-family: monospace;
+}
+.navbar {
+    font-size: 30px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
