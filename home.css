@@ -1,5 +1,11 @@
 * {
     font-family: monospace;
+    box-sizing: border-box
+}
+
+body {
+    height: 425vh;
+    transition: background 1s ease;
 }
 .navbar {
     font-size: 30px;
@@ -13,7 +19,7 @@
 h1 {
     text-align: center;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 .containers {  display: grid;
@@ -41,7 +47,7 @@ h1 {
     align-items: center;
     background: lightblue;
     border-radius: 10px;
-    margin: 20px 75px;
+    margin: 80px 75px;
 }
   
 .img1 { grid-area: img1; 
@@ -67,7 +73,7 @@ h1 {
     align-items: center;
     background: lightblue;
     border-radius: 10px;
-    margin: 20px 75px;
+    margin: 80px 75px;
 }
   
 .para2 { grid-area: para2; 
@@ -93,7 +99,7 @@ h1 {
     align-items: center;
     background: lightblue;
     border-radius: 10px;
-    margin: 20px 75px;
+    margin: 80px 75px;
 }
   
 .img3 { grid-area: img3; 
@@ -119,7 +125,7 @@ h1 {
     align-items: center;
     background: lightblue;
     border-radius: 10px;
-    margin: 20px 75px;
+    margin: 80px 75px;
 }
   
 .para4 { grid-area: para4; 
@@ -132,4 +138,3 @@ h1 {
 .img4 { grid-area: img4; 
     margin: 15px 15px;
 }
-  
